@@ -1,0 +1,16 @@
+D:\web\Web Asp\DongHo\DongHo.DataAcces\bin\Debug\netcoreapp3.1\DongHo.DataAcces.deps.json
+D:\web\Web Asp\DongHo\DongHo.DataAcces\bin\Debug\netcoreapp3.1\DongHo.DataAcces.runtimeconfig.json
+D:\web\Web Asp\DongHo\DongHo.DataAcces\bin\Debug\netcoreapp3.1\DongHo.DataAcces.runtimeconfig.dev.json
+D:\web\Web Asp\DongHo\DongHo.DataAcces\bin\Debug\netcoreapp3.1\DongHo.DataAcces.dll
+D:\web\Web Asp\DongHo\DongHo.DataAcces\bin\Debug\netcoreapp3.1\DongHo.DataAcces.pdb
+D:\web\Web Asp\DongHo\DongHo.DataAcces\bin\Debug\netcoreapp3.1\DongHo.Model.dll
+D:\web\Web Asp\DongHo\DongHo.DataAcces\bin\Debug\netcoreapp3.1\DongHo.Model.pdb
+D:\web\Web Asp\DongHo\DongHo.DataAcces\obj\Debug\netcoreapp3.1\DongHo.DataAcces.csproj.AssemblyReference.cache
+D:\web\Web Asp\DongHo\DongHo.DataAcces\obj\Debug\netcoreapp3.1\DongHo.DataAcces.GeneratedMSBuildEditorConfig.editorconfig
+D:\web\Web Asp\DongHo\DongHo.DataAcces\obj\Debug\netcoreapp3.1\DongHo.DataAcces.AssemblyInfoInputs.cache
+D:\web\Web Asp\DongHo\DongHo.DataAcces\obj\Debug\netcoreapp3.1\DongHo.DataAcces.AssemblyInfo.cs
+D:\web\Web Asp\DongHo\DongHo.DataAcces\obj\Debug\netcoreapp3.1\DongHo.DataAcces.csproj.CoreCompileInputs.cache
+D:\web\Web Asp\DongHo\DongHo.DataAcces\obj\Debug\netcoreapp3.1\DongHo.DataAcces.csproj.CopyComplete
+D:\web\Web Asp\DongHo\DongHo.DataAcces\obj\Debug\netcoreapp3.1\DongHo.DataAcces.dll
+D:\web\Web Asp\DongHo\DongHo.DataAcces\obj\Debug\netcoreapp3.1\DongHo.DataAcces.pdb
+D:\web\Web Asp\DongHo\DongHo.DataAcces\obj\Debug\netcoreapp3.1\DongHo.DataAcces.genruntimeconfig.cache

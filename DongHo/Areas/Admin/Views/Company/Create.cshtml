@@ -1,0 +1,48 @@
+﻿@model Company
+
+<form method="post" asp-action="Create" >
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2>Create Company</h2>
+            <hr />
+        </div>
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3">
+            <label asp-for="Name">Name</label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="StreetAddress">StreetAddress</label>
+            <input asp-for="StreetAddress" class="form-control" />
+            <span asp-validation-for="StreetAddress" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Ward">Ward</label>
+            <input asp-for="Ward" class="form-control" />
+            <span asp-validation-for="Ward" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="District">District</label>
+            <input asp-for="District" class="form-control" />
+            <span asp-validation-for="District" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Province">Province</label>
+            <input asp-for="Province" class="form-control" />
+            <span asp-validation-for="Province" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="PhoneNumber">PhoneNumber</label>
+            <input asp-for="PhoneNumber" class="form-control" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary" @*onclick="return ValidateInput()"*@>
+            Create
+        </button>
+
+
+        <a asp-action="Index" asp-controller="Company">Back</a>
+    </div>
+</form>

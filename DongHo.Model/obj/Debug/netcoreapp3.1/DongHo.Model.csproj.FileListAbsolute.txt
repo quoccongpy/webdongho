@@ -1,0 +1,13 @@
+D:\web\Web Asp\DongHo\DongHo.Model\bin\Debug\netcoreapp3.1\DongHo.Model.deps.json
+D:\web\Web Asp\DongHo\DongHo.Model\bin\Debug\netcoreapp3.1\DongHo.Model.runtimeconfig.json
+D:\web\Web Asp\DongHo\DongHo.Model\bin\Debug\netcoreapp3.1\DongHo.Model.runtimeconfig.dev.json
+D:\web\Web Asp\DongHo\DongHo.Model\bin\Debug\netcoreapp3.1\DongHo.Model.dll
+D:\web\Web Asp\DongHo\DongHo.Model\bin\Debug\netcoreapp3.1\DongHo.Model.pdb
+D:\web\Web Asp\DongHo\DongHo.Model\obj\Debug\netcoreapp3.1\DongHo.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\web\Web Asp\DongHo\DongHo.Model\obj\Debug\netcoreapp3.1\DongHo.Model.AssemblyInfoInputs.cache
+D:\web\Web Asp\DongHo\DongHo.Model\obj\Debug\netcoreapp3.1\DongHo.Model.AssemblyInfo.cs
+D:\web\Web Asp\DongHo\DongHo.Model\obj\Debug\netcoreapp3.1\DongHo.Model.csproj.CoreCompileInputs.cache
+D:\web\Web Asp\DongHo\DongHo.Model\obj\Debug\netcoreapp3.1\DongHo.Model.dll
+D:\web\Web Asp\DongHo\DongHo.Model\obj\Debug\netcoreapp3.1\DongHo.Model.pdb
+D:\web\Web Asp\DongHo\DongHo.Model\obj\Debug\netcoreapp3.1\DongHo.Model.genruntimeconfig.cache
+D:\web\Web Asp\DongHo\DongHo.Model\obj\Debug\netcoreapp3.1\DongHo.Model.csproj.AssemblyReference.cache

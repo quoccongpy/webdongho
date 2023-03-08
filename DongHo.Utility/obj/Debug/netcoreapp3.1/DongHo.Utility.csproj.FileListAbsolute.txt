@@ -1,0 +1,10 @@
+D:\web\Web Asp\DongHo\DongHo.Utility\bin\Debug\netcoreapp3.1\DongHo.Utility.deps.json
+D:\web\Web Asp\DongHo\DongHo.Utility\bin\Debug\netcoreapp3.1\DongHo.Utility.dll
+D:\web\Web Asp\DongHo\DongHo.Utility\bin\Debug\netcoreapp3.1\DongHo.Utility.pdb
+D:\web\Web Asp\DongHo\DongHo.Utility\obj\Debug\netcoreapp3.1\DongHo.Utility.csproj.AssemblyReference.cache
+D:\web\Web Asp\DongHo\DongHo.Utility\obj\Debug\netcoreapp3.1\DongHo.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\web\Web Asp\DongHo\DongHo.Utility\obj\Debug\netcoreapp3.1\DongHo.Utility.AssemblyInfoInputs.cache
+D:\web\Web Asp\DongHo\DongHo.Utility\obj\Debug\netcoreapp3.1\DongHo.Utility.AssemblyInfo.cs
+D:\web\Web Asp\DongHo\DongHo.Utility\obj\Debug\netcoreapp3.1\DongHo.Utility.csproj.CoreCompileInputs.cache
+D:\web\Web Asp\DongHo\DongHo.Utility\obj\Debug\netcoreapp3.1\DongHo.Utility.dll
+D:\web\Web Asp\DongHo\DongHo.Utility\obj\Debug\netcoreapp3.1\DongHo.Utility.pdb

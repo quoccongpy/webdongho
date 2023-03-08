@@ -1,0 +1,98 @@
+﻿@model DongHo.Model.ViewModels.ProductVM
+<form method="post" asp-action="Upsert" enctype="multipart/form-data">
+    <input asp-for="product.Id" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2>Create Product</h2>
+            <hr />
+        </div>
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3">
+            <label asp-for="product.Name">Name</label>
+            <input asp-for="product.Name" class="form-control" />
+            <span asp-validation-for="product.Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="product.Description">Description</label>
+            <textarea asp-for="product.Description" class="form-control"></textarea>
+            <span asp-validation-for="product.Description" class="text-danger"></span>
+        </div>
+        <div class="row">
+            <div class="mb-3 col-4">
+                <label asp-for="product.Price">Price</label>
+                <input asp-for="product.Price" class="form-control" />
+                <span asp-validation-for="product.Price" class="text-danger"></span>
+            </div>
+            <div class="mb-3 col-4">
+                <label asp-for="product.Price5">Price5</label>
+                <input asp-for="product.Price5" class="form-control" />
+                <span asp-validation-for="product.Price5" class="text-danger"></span>
+            </div>
+            <div class="mb-3 col-4">
+                <label asp-for="product.Price10">Price10</label>
+                <input asp-for="product.Price10" class="form-control" />
+                <span asp-validation-for="product.Price10" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="product.CategoryId">Category</label>
+            <select asp-for="product.CategoryId" asp-items="@Model.CategoryList" class="form-control">
+                <option disabled onselect="">--Select Category--</option>
+            </select>
+            <span asp-validation-for="product.CategoryId" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="product.CoverTypeId">CoverType</label>
+            <select asp-for="product.CoverTypeId" asp-items="@Model.CoverTypeList" class="form-control">
+                <option disabled onselect="">--Select CoverType--</option>
+            </select>
+            <span asp-validation-for="product.CoverTypeId" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="product.BrandId">Brand</label>
+            <select asp-for="product.BrandId" asp-items="@Model.BrandList" class="form-control">
+                <option disabled onselect="">--Select Brand--</option>
+            </select>
+            <span asp-validation-for="product.BrandId" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="product.ImageUrl"></label>
+            <input id="imageURL" type="file" name="files" multiple class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary" onclick="return ValidateInput()">
+            Create
+        </button>
+
+
+        <a asp-action="Index" asp-controller="Product">Back</a>
+    </div>
+</form>
+
+<script>
+    function ValidateInput() {
+        if (document.getElementById("imageURL").value == "") {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Something went wrong!',
+                footer: '<a href="">Bạn chưa chọn ảnh?</a>'
+            })
+            return false;
+        }
+        return true;
+    }
+
+    tinymce.init({
+        selector: 'textarea',
+        plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage tinycomments tableofcontents footnotes mergetags autocorrect',
+        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+        tinycomments_mode: 'embedded',
+        tinycomments_author: 'Author name',
+        mergetags_list: [
+            { value: 'First.Name', title: 'First Name' },
+            { value: 'Email', title: 'Email' },
+        ]
+    });
+</script>
